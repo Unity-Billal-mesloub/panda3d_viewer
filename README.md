@@ -1,5 +1,5 @@
 # panda3d_viewer
-A simple 3D geometry viewer based on [Panda3D](https://github.com/Unity-Billal-mesloub/panda3d) game engine.
+A simple 3D geometry viewer based on [Panda3D](https://github.com/Unity-Billal-mesloub/panda3d) engine.
 
 [![Travis](https://travis-ci.com/ikalevatykh/panda3d_viewer.svg?branch=main)](https://travis-ci.com/github/Unity-Billal-mesloub/panda3d_viewer)
 [![PyPI](https://img.shields.io/pypi/v/panda3d_viewer)](https://pypi.org/project/panda3d-viewer)
@@ -24,7 +24,7 @@ python setup.py install
 
 ## Examples
 
-### A simple scene in a GUI window
+### A simple scene in a GUI windows
 
 ![Box and sphere](https://github.com/Unity-Billal-mesloub/panda3d_viewer/blob/main/images/box_and_sphere.png?raw=true "Box and sphere")
 
