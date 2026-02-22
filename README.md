@@ -1,7 +1,7 @@
 # panda3d_viewer
-A simple 3D geometry viewer based on [Panda3D](https://github.com/panda3d/panda3d) game engine.
+A simple 3D geometry viewer based on [Panda3D](https://github.com/Unity-Billal-mesloub/panda3d) game engine.
 
-[![Travis](https://travis-ci.com/ikalevatykh/panda3d_viewer.svg?branch=master)](https://travis-ci.com/github/ikalevatykh/panda3d_viewer)
+[![Travis](https://travis-ci.com/ikalevatykh/panda3d_viewer.svg?branch=main)](https://travis-ci.com/github/Unity-Billal-mesloub/panda3d_viewer)
 [![PyPI](https://img.shields.io/pypi/v/panda3d_viewer)](https://pypi.org/project/panda3d-viewer)
 [![Downloads](https://pepy.tech/badge/panda3d-viewer)](https://pypi.org/project/panda3d-viewer)
 [![License: MIT](https://img.shields.io/pypi/l/panda3d_viewer)](https://opensource.org/licenses/MIT)
@@ -17,7 +17,7 @@ pip install panda3d_viewer
 ### From source code
 
 ```bash
-git clone https://github.com/ikalevatykh/panda3d_viewer.git
+git clone https://github.com/Unity-Billal-mesloub/panda3d_viewer.git
 cd panda3d_viewer
 python setup.py install
 ```
@@ -26,7 +26,7 @@ python setup.py install
 
 ### A simple scene in a GUI window
 
-![Box and sphere](https://github.com/ikalevatykh/panda3d_viewer/blob/master/images/box_and_sphere.png?raw=true "Box and sphere")
+![Box and sphere](https://github.com/Unity-Billal-mesloub/panda3d_viewer/blob/main/images/box_and_sphere.png?raw=true "Box and sphere")
 
 ```python
 from panda3d_viewer import Viewer, ViewerConfig
@@ -54,7 +54,7 @@ with Viewer(window_type='onscreen', window_title='example', config=config) as vi
 
 ### Render an animation offscreen
 
-![Sphere animation](https://github.com/ikalevatykh/panda3d_viewer/blob/master/images/sphere_anim.gif?raw=true "Sphere animation")
+![Sphere animation](https://github.com/Unity-Billal-mesloub/panda3d_viewer/blob/main/images/sphere_anim.gif?raw=true "Sphere animation")
 
 ```python
 from math import cos, sin, pi
@@ -92,7 +92,7 @@ with imageio.get_writer('sphere_anim.gif', mode='I') as writer:
 
 ### Render a point cloud
 
-![Point cloud](https://github.com/ikalevatykh/panda3d_viewer/blob/master/images/point_cloud.png?raw=true "Point cloud")
+![Point cloud](https://github.com/Unity-Billal-mesloub/panda3d_viewer/blob/main/images/point_cloud.png?raw=true "Point cloud")
 
 ```python
 import numpy as np
@@ -117,14 +117,14 @@ with Viewer(show_grid=False) as viewer:
 
 ### Using with Pinocchio
 
-![Pinocchio robots](https://github.com/ikalevatykh/panda3d_viewer/blob/master/images/pinocchio.png?raw=true "Pinocchio robots")
+![Pinocchio robots](https://github.com/Unity-Billal-mesloub/panda3d_viewer/blob/main/images/pinocchio.png?raw=true "Pinocchio robots")
 
-[Pinocchio](https://github.com/stack-of-tasks/pinocchio/) is a library for rigid multi-body dynamics computation. To see how to use this package with Pinocchio see [example 1](https://github.com/stack-of-tasks/pinocchio/blob/master/examples/panda3d-viewer.py), [example 2](https://github.com/stack-of-tasks/pinocchio/blob/master/examples/panda3d-viewer-play.py).
+[Pinocchio](https://github.com/Unity-Billal-mesloub/pinocchio/) is a library for rigid multi-body dynamics computation. To see how to use this package with Pinocchio see [example 1](https://github.com/Unity-Billal-mesloub/pinocchio/blob/main/examples/panda3d-viewer.py), [example 2](https://github.com/Unity-Billal-mesloub/pinocchio/blob/main/examples/panda3d-viewer-play.py).
 
 
 ### Visualize the point cloud from a RealSense camera
 
-![RealSense](https://github.com/ikalevatykh/panda3d_viewer/blob/master/images/realsense.png?raw=true "RealSense")
+![RealSense](https://github.com/Unity-Billal-mesloub/panda3d_viewer/blob/main/images/realsense.png?raw=true "RealSense")
 
 ```python
 import numpy as np
